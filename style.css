@@ -166,6 +166,7 @@ img {
 
     header p {
         font-size: 0.9em;
+        margin-top: 1px;
     }
 
     nav {
@@ -208,7 +209,7 @@ img {
     }
 
     section p {
-        font-size: 1em;
+        font-size: 0.9em;
         text-align: justify;
     }
 
