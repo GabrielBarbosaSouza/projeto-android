@@ -8,10 +8,19 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fontes/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    overflow-x: hidden;
+}
 
 body {
-    background-image: linear-gradient(to bottom, #44fc81, #30fa84, #44fcdd);
+    background-image: linear-gradient(to bottom, #1a5e31, #26bb64, #268b7a);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -25,7 +34,7 @@ article > h1, h2 {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #44FC94, #123d42);
+    background-image: linear-gradient(to bottom, #26bb64, #123d42);
     padding: 2px 2px 5px 2px;
     color: white;
     text-align: center;
@@ -36,8 +45,8 @@ header {
 
 header > h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 3em;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 header > p {
@@ -82,16 +91,18 @@ article > h2 {
 
 section {
     background-color: white;
-    border-radius: 0px;
+    border-radius: 25px;
     width: 90%;
     max-width: 800px;
     padding: 20px;
     margin: 0px auto;
+    margin-top: 35px;
     box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.685);
 }
 
 .midia {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 20px auto;
     max-width: 100%;
 }
@@ -117,6 +128,10 @@ section {
     color: white;
 }
 
+.extra ul {
+    display: inline-block;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -137,16 +152,44 @@ footer {
     text-align: center;
 }
 
-/* Responsivo para telas menores */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsivo para celular */
 @media (max-width: 600px) {
     header h1 {
         font-size: 2em;
     }
 
+    header p {
+        font-size: 0.9em;
+    }
+
     nav {
-        text-align: center;
+        text-align: initial;
+        margin-left: 2em;
         padding: 10px 0;
         font-size: 0.7em;
+    }
+
+        nav > a {
+        padding-right: 20px;
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s ease;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+        background-color: #47b16b96;
+        padding: 0px 25px;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 1em;
+        transition: all 0.5s ease;
     }
 
     .container {
