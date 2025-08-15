@@ -168,7 +168,7 @@ img {
 }
 
 /* Responsivo para celular */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header {
     text-align: center;
     }
