@@ -25,7 +25,7 @@ body {
     margin: 0px;
 }
 
-p {
+section p {
     text-indent: 30px;
 }
 
@@ -43,32 +43,43 @@ header {
     margin: 0px 0px 4px 0px;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 header h1, header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-header > h1 {
+header h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4.5em;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 0.4em;
   margin-bottom: 1px;
 }
 
-header > p {
-    padding: 10px;
+header p {
+    padding: 0;
+    margin: 5px 0 25px 0;
     font-size: 1.1em;
-    margin-top: 1px;
 }
 
 nav {
+    margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
     text-align: left;
 }
 
-nav > a {
+nav a {
+    display: inline-flex;
     padding-right: 20px;
     text-decoration: none;
     color: white;
@@ -83,6 +94,10 @@ nav a:hover {
     text-align: center;
     font-size: 1em;
     transition: all 0.5s ease;
+}
+
+.icon {
+    margin-right: 12px;
 }
 
 article > h1 {
@@ -169,18 +184,20 @@ img {
 }
 
 /* Responsivo para celular */
+
 @media (max-width: 768px) {
     header {
     text-align: center;
     }
     
     header h1 {
-        font-size: 2em;
+        font-size: 3em;
+        margin-top: 0.6em;
         margin-bottom: 0.2em;
     }
 
     header p {
-        font-size: 0.7em;
+        font-size: 0.9em;
         margin: 1px;
         padding-top: 3px;
     }
@@ -192,7 +209,7 @@ img {
         font-size: 0.7em;
     }
 
-        nav > a {
+        nav a {
         padding-right: 20px;
         text-decoration: none;
         color: white;
@@ -237,8 +254,8 @@ img {
 
     .container {
     font-size: 0.8em;
-    display: inline-block;
-    justify-content: space-between
+    display: center;
+    justify-content: space-arround;
     }
 
     #lista1, #lista2 {
@@ -247,7 +264,7 @@ img {
     }
 
     #lista1 li, #lista2 li {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     footer {
