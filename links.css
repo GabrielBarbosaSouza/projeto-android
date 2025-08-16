@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "IDroid";
+    src: url("fontes/idroid.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fontes/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #1ddb5d, #052e12);
+    padding: 2px 2px 5px 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+    margin: 0px 0px 4px 0px;
+}
+
+header h1, header p {
+    display: inline-block;
+}
+
+header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 1px;
+}
+
+header > p {
+    padding: 10px;
+    font-size: 1.1em;
+    margin-top: 1px;
+}
+
+nav {
+    margin-top: 1em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+nav > a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #47b16b96;
+    padding: 0px 55px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1em;
+    transition: all 0.5s ease;
+}
+
+/* Responsivo para celular */
+@media (max-width: 768px) {
+    header > h1 {
+        font-size: 5em;
+        margin: 1px;
+    }
+
+    header > p {
+        padding: 10px;
+        font-size: 1.1em;
+        margin-top: 1px;
+    }
+}
