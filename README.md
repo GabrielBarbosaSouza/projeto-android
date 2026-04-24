@@ -1,4 +1,4 @@
-# 📱 Projeto Android — Curso em Vídeo
+# Projeto Android — Curso em Vídeo
 
 Recriação fiel do site Android desenvolvido como exercício prático do **Módulo 2 do curso de HTML5 e CSS3** do [Curso em Vídeo](https://www.cursoemvideo.com), ministrado pelo professor **Gustavo Guanabara**.
 
@@ -7,7 +7,7 @@ https://gabrielbarbosasouza.github.io/projeto-android/
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste na reprodução de um site temático sobre o sistema operacional Android, seguindo exatamente as orientações do professor durante as aulas. O objetivo foi colocar em prática os conceitos de HTML5 e CSS3 aprendidos ao longo do módulo, incluindo estruturação semântica, estilização e layout com CSS.
 
@@ -15,7 +15,7 @@ Este projeto consiste na reprodução de um site temático sobre o sistema opera
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Finalidade |
 |------------|------------|
@@ -24,7 +24,7 @@ Este projeto consiste na reprodução de um site temático sobre o sistema opera
 
 ---
 
-## 📚 Contexto de Aprendizado
+## Contexto de Aprendizado
 
 Este projeto foi desenvolvido durante o **Módulo 2** do curso gratuito de HTML5 e CSS3 do Curso em Vídeo. Entre os conteúdos praticados estão:
 
@@ -35,10 +35,10 @@ Este projeto foi desenvolvido durante o **Módulo 2** do curso gratuito de HTML5
 
 ---
 
-## 🔗 Referência
+## Referência
 
-- 🎓 Curso: [HTML5 e CSS3 — Curso em Vídeo](https://www.cursoemvideo.com/curso/html5-css3-modulo2/)
-- 👨‍🏫 Professor: Gustavo Guanabara
+- Curso: [HTML5 e CSS3 — Curso em Vídeo](https://www.cursoemvideo.com/curso/html5-css3-modulo2/)
+- Professor: Gustavo Guanabara
 
 ---
 
